@@ -115,16 +115,44 @@ h3{font-size:1.25rem;margin-bottom:1rem}
 
 /* responsive */
 @media (max-width:900px){
-  .hero-inner{grid-template-columns:1fr 320px}
+  .hero-inner{grid-template-columns:1fr;gap:1.5rem;text-align:center}
+  .hero-image img{max-width:100%;height:auto}
   .projects-grid{grid-template-columns:repeat(2,1fr)}
   .skill-grid{grid-template-columns:repeat(2,1fr)}
 }
 
 @media (max-width:720px){
-  .nav{position:fixed;right: 20px;px;top: 80px;px;background:linear-gradient(180deg, rgba(7,20,40,0.98), rgba(7,20,40,0.95));padding: 25px;rem;border-radius:12px;flex-direction:column;display:none;min: width 25px;0px}
-  .nav.show{display:flex}
-  .nav-toggle{display:block}
-  .hero-inner{grid-template-columns:1fr;gap:1.5rem}
-  .projects-grid{grid-template-columns:1fr}
-  .skill-grid{grid-template-columns:1fr}
+  .nav {
+    position: fixed;
+    right: 20px;
+    top: 80px;
+    background: linear-gradient(180deg, rgba(7,20,40,0.98), rgba(7,20,40,0.95));
+    padding: 25px;
+    border-radius: 12px;
+    flex-direction: column;
+    display: none;
+    min-width: 200px;
+    z-index: 1000;
+  }
+  .nav.show {
+    display: flex;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .skill-grid {
+    grid-template-columns: 1fr;
+  }
+  .project img {
+    height: auto;
+  }
+  h1, h2, h3, h4 {
+    font-size: 90%;
+  }
+  .lead {
+    font-size: 0.9rem;
+  }
 }
