@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>My Certificates</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9fafb;
+    margin: 0;
+    padding: 2rem;
+    color: #333;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #222;
+  }
+  .certificates-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .certificate-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .certificate-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+  .certificate-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  .certificate-title {
+    font-size: 1.25rem;
+    margin: 1rem 0 0.5rem;
+    color: #0070f3;
+  }
+  .certificate-desc {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+</style>
+</head>
+<body>
+
+<h1>My Certificates</h1>
+
+<div class="certificates-container">
+
+  <div class="certificate-card">
+    <img src="images\Data Analytics Tata.png" alt="Tata Certificate" class="certificate-image" />
+    <div class="certificate-title">Tata Certificate</div>
+    <div class="certificate-desc">Completed [Course/Program] with excellence.</div>
+  </div>
+
+  <div class="certificate-card">
+    <img src="goldman-sachs-certificate.jpg" alt="Goldman Sachs Certificate" class="certificate-image" />
+    <div class="certificate-title">Goldman Sachs Certificate</div>
+    <div class="certificate-desc">Successfully finished [Course/Program] with distinction.</div>
+  </div>
+
+  <!-- Add more certificate cards here -->
+
+</div>
+
+</body>
+</html>

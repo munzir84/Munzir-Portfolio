@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Munzir Husain — Portfolio </title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="images\DP.png" alt="profile" class="logo"/>
+        <div>
+          <h1>Munzir Husain</h1>
+          <p class="muted">BE Computer Science & Engineering • Hyderabad</p>
+        </div>
+      </div>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="nav" class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="Certification.html">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Hello — I'm <span class="accent">Munzir</span></h2>
+          <p class="lead">I’m a full-stack enthusiast specializing in Java backend and UI/frontend development, with a strong passion for AI and Machine Learning. I love building data-driven projects that 
+            solve real-world problems, such as Air Quality Prediction using advanced ML techniques. Always eager to learn, grow, and contribute to innovative, impactful solutions.</p>
+          <div class="cta">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="Resume.pdf" class="btn alt" download>Download Resume</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img width="500" src="images/Prof.jpg" alt="hero illustration"/>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h3>About Me</h3>
+        <p>I am a passionate and dedicated computer science graduate specializing in full-stack development and machine learning. With hands-on experience in Java, web technologies, and data-driven projects, I aim to build efficient, user-friendly applications that solve real-world problems. Constantly learning and evolving, I thrive in collaborative environments where I can contribute and grow.</p>
+      </div>
+    </section>
+
+ <section id="skills" class="skills">
+ <style>
+  /* Increase heading size */
+  .skill-card h4 {
+    font-size: 1.4rem; /* bigger than default */
+    font-weight: bold;
+    color: #0077b6; /* nice blue to stand out */
+    margin-bottom: 8px;
+  }
+</style>
+
+<section id="skills" class="skills">
+  <div class="container">
+    <h3>Skills</h3>
+    <div class="skill-grid">
+
+      <!-- Programming & Frameworks -->
+      <div class="skill-card">
+        <h4>Languages & Frameworks</h4>
+        <p>Java, HTML, CSS, JavaScript, SQL, Spring (concepts), React (basic), Python, Flask, Django</p>
+      </div>
+
+      <!-- Tools & Libraries -->
+      <div class="skill-card">
+        <h4>Tools & Libraries</h4>
+        <p>Git, GitHub, VSCode, PyCharm, Formspree, XGBoost, RandomForest, Scikit-learn, TensorFlow, Chart.js</p>
+      </div>
+
+      <!-- AI & Machine Learning -->
+      <div class="skill-card">
+        <h4>Artificial Intelligence & Machine Learning</h4>
+        <p>Neural Networks, NLP, Computer Vision, Supervised & Unsupervised Learning, Feature Engineering, Model Evaluation</p>
+      </div>
+
+      <!-- Data Science -->
+      <div class="skill-card">
+        <h4>Data Science</h4>
+        <p>Data Cleaning & Wrangling, Exploratory Data Analysis, Statistical Analysis, Time Series Forecasting, Data Visualization</p>
+      </div>
+
+      <!-- Web Development -->
+      <div class="skill-card">
+        <h4>Web Development</h4>
+        <p>Responsive Design, Bootstrap, Tailwind CSS, API Integration, REST, MongoDB, MySQL</p>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="skill-card">
+        <h4>Soft Skills</h4>
+        <p>Problem solving, communication, time management, self-motivated learner</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="projects" class="projects">
+  <div class="container">
+    <h3>Key Projects</h3>
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <article class="project">
+        <img src="images/AQI-Pred.png" alt="AQI project">
+        <h4>AQI Prediction Using MK</h4>
+        <p>The AQI Prediction project uses machine learning models to forecast air quality based on environmental and pollutant data.</p>
+        <p class="meta">Features: Real-Time Forecasting, Visualization, Interactive UI</p>
+        <div class="project-links">
+          <a href="https://github.com/munzir84/Air-Quality-Index-AQI-Prediction-Using-Machine-Learning" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project">
+        <img src="images\CO2.jpg" alt="UI project">
+        <h4>CO2 Emission Using ML</h4>
+        <p>A CO2 prediction project aims to develop accurate models using techniques like machine learning to forecast carbon dioxide emissions.</p>
+        <p class="meta">Features: Environmental measurements and historical CO2 levels</p>
+        <div class="project-links">
+          <a href="https://github.com/munzir84" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project">
+        <img src="images\aqi.jpg" alt="SQL project">
+        <h4>AQI Calculator Using Java</h4>
+        <p>An Air Quality Index (AQI) calculator is a tool that converts concentrations of various air pollutants into a single number or index value.</p>
+        <p class="meta">Features: AQI calculator measures key air pollutants</p>
+        <div class="project-links">
+          <a href="https://github.com/munzir84" target="_blank">GitHub</a>
+        </div>
+      </article>
+      <!-- Project 4 -->
+      <article class="project">
+        <img src="images\Weather.avif" alt="Project 4">
+        <h4>Weather Forecast App</h4>
+        <p>Weather prediction using OpenWeather API with modern frontend and chart-based visuals.A weather forecast web page provides current weather.</p>
+        <p class="meta">Features: Real-time weather, Charts</p>
+        <div class="project-links">
+          <a href="https://munzir84.github.io/weather-app/" target="_blank">Live demo</a>
+          <a href="https://github.com/munzir84/weather-app" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+      <!-- Project 5 -->
+      <article class="project">
+        <img src="images\Portfolio.png" alt="Project 5">
+        <h4>Portfolio Website</h4>
+        <p>Personal portfolio website showcasing skills, projects, and contact form integration.</p>
+        <p class="meta">Features: Responsive, Interactive sections</p>
+        <div class="project-links">
+          <a href="#" target="_blank">Live demo</a>
+          <a href="#" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+      <!-- Project 6 -->
+      <article class="project">
+        <img src="images/ISE.png" alt="Project 6">
+        <h4>Image Search Engine</h4>
+        <p> It uses advanced algorithms to index, analyze, and retrieve relevant images based on text descriptions,metadata, or visual features, helping users quickly discover images suited to their needs. </p>
+        <div class="project-links">
+          <a href="https://munzir84.github.io/Image-Search-Engine/" target="_blank">Live demo</a>
+          <a href="https://github.com/munzir84/Image-Search-Engine" target="_blank">GitHub</a>
+        </div>
+      </article>
+      <!-- Project 7 -->
+      <article class="project">
+        <img src="images/ChatBot.png" alt="Project 7">
+        <h4>Chatbot App</h4>
+        <p>A chatbot is an AI-powered virtual assistant that interacts with users through text or voice, answering questions, providing information,  information retrieval, or entertainment.</p>
+        <p class="meta">Features: AI responses • Flask API</p>
+        <div class="project-links">
+          <a href="#" target="_blank">Live demo</a>
+          <a href="#" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+      <!-- Project 8 -->
+      <article class="project">
+        <img src="images/quiz.png" alt="Project 8">
+        <h4>Quiz Web App</h4>
+        <p>A quiz web app is an interactive online platform that allows users to answer questions on various topics, track their scores</p>
+        <p class="meta">Features: Multi-class prediction • Accuracy charts</p>
+        <div class="project-links">
+          <a href="https://munzir84.github.io/Quiz-App/" target="_blank">Live demo</a>
+          <a href="https://github.com/munzir84/Quiz-App" target="_blank">GitHub</a>
+        </div>
+      </article>
+
+      <!-- Project 9 -->
+      <article class="project">
+        <img src="images/Others.png" alt="Other Project">
+        <h4>Other Projects</h4>
+        <p>Explore my other projects to see a diverse range of innovative solutions and creative ideas. From advanced data prediction models and interactive web. Dive in to discover the depth and breadth of my expertise across various domains.</p>
+        <div class="project-links">
+          <a href="https://github.com/munzir84" target="_blank">Others</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<br>
+<br>
+<br>
+    <section id="contact" class="contact">
+      <div class="container">
+        <h3>Contact</h3>
+        <p>If you'd like to reach me, use the form or email me directly at <strong>munzirhussain9@gmail.com</strong></p>
+        <br>
+
+        <form id="contact-form" action="https://formspree.io/f/xdkdyzvr" method="POST">
+          <!-- Replace the action above with your Formspree endpoint (or your email endpoint) -->
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="_replyto" type="email" required />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <input type="hidden" name="_subject" value="New message from portfolio" />
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <div class="socials">
+          <a href="https://github.com/munzir84" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/munzir-husain/" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Munzir Husain — Built with ❤️. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
